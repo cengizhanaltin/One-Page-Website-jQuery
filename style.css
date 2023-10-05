@@ -35,11 +35,48 @@ main #division-2-list ul {
   display: block;
 }
 
+nav {
+  background-color: #333;
+  color: white;
+  padding: 3rem 0 3rem 0;
+  width: 100%;
+}
+.link {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+#menu {
+  float: right;
+}
+
+#menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0.5rem;
+}
+#menu a {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+#logo {
+  float: left;
+}
+
+/*Container*/
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
 /*Header*/
 
 header {
   height: 80rem;
-
   position: relative;
 }
 
