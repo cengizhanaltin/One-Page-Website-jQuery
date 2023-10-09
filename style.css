@@ -49,6 +49,7 @@ nav {
   font-size: 2rem;
   font-weight: 700;
 }
+
 #menu {
   float: right;
 }
@@ -58,18 +59,25 @@ nav {
   list-style-type: none;
   margin: 0.5rem;
 }
+#menu i {
+  margin-right: 0.5rem;
+}
+#menu i:hover {
+  color: gray;
+}
 #menu a {
   color: white;
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 0.4rem;
   transition: all 0.3s;
-  margin-left: 0.6rem;
 }
+
 #menu a:hover {
   background-color: white;
   color: #333;
 }
+
 #logo {
   float: left;
 }
@@ -175,4 +183,9 @@ header p {
 
 #right-main ul {
   list-style-type: none;
+}
+
+#top a i {
+  text-decoration-line: none;
+  color: #fff;
 }
