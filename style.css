@@ -87,6 +87,7 @@ nav {
 
 #logo-image {
   width: 120px;
+  border: 2px solid white;
   border-radius: 50%;
 }
 
@@ -225,3 +226,5 @@ header p {
 #bottom i {
   margin-right: 5px;
 }
+
+/*contact*/
