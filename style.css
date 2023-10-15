@@ -228,3 +228,24 @@ header p {
 }
 
 /*contact*/
+
+.col20 {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+}
+.col25 {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+.col50 {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.col75 {
+  float: left;
+  width: 75%;
+  box-sizing: border-box;
+}
