@@ -148,7 +148,7 @@ header p {
 /*Section - 1 */
 
 #division-1-main {
-  background-color: black;
+  background-color: #333;
   padding: 4.4rem 0;
 }
 
@@ -229,6 +229,12 @@ header p {
 
 /*contact*/
 
+#iletisim-box {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
 .col20 {
   float: left;
   width: 20%;
@@ -248,4 +254,21 @@ header p {
   float: left;
   width: 75%;
   box-sizing: border-box;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.justify {
+  text-align: justify;
+}
+
+footer a {
+  text-decoration-line: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration-line: none;
+  color: white;
 }
