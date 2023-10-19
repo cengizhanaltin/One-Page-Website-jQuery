@@ -172,7 +172,7 @@ header p {
 
 #division-3-career {
   width: 100%;
-  height: 50rem;
+  height: 30rem;
   margin: 2rem 0;
 }
 #left-main {
@@ -229,11 +229,11 @@ header p {
 
 /*contact*/
 
-#iletisim-box {
+/* #iletisim-box {
   border: 2px solid white;
   padding: 5px;
   border-radius: 3px;
-}
+} */
 
 .col20 {
   float: left;
@@ -271,4 +271,32 @@ footer a {
 footer a:hover {
   text-decoration-line: none;
   color: white;
+}
+#misyon {
+  background-color: orangered;
+}
+/*responsive design*/
+
+/*
+
+0-480px
+481-768px
+769-1279px
++1280px
+
+
+*/
+@media screen and (max-width: 481px) {
+  * {
+    font-size: 15px;
+  }
+  #logo-image {
+    width: 100px;
+  }
+  #bottom a {
+    visibility: hidden;
+  }
+  header {
+    height: 50%;
+  }
 }
