@@ -153,7 +153,8 @@ header p {
 }
 
 /*Section - 2 */
-#division-2-list {
+#division-2-list ul {
+  min-height: 40rem;
   padding: 2.3rem;
   background-color: white;
   color: black;
@@ -286,7 +287,7 @@ footer a:hover {
 
 
 */
-@media screen and (max-width: 481px) {
+/* @media screen and (max-width: 481px) {
   * {
     font-size: 15px;
   }
@@ -298,5 +299,42 @@ footer a:hover {
   }
   header {
     height: 50%;
+  }
+} */
+
+@media screen and (min-width: 769px) {
+  .area {
+    width: 96%;
+    margin: 2%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .area {
+    width: 45%;
+    margin: 1%;
+    float: left;
+  }
+  .area img {
+    width: 35rem;
+    height: 25rem;
+  }
+  #division-2-list ul {
+    min-height: 75rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .area {
+    width: 22%;
+    margin: 1%;
+    float: left;
+  }
+  .area img {
+    width: 25rem;
+    height: 17rem;
+  }
+  #division-2-list ul {
+    min-height: 32rem;
   }
 }
